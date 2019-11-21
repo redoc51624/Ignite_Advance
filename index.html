@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="page2.css">
+</head>
+<body>
+
+<h id="title">GUTENBERG PROJECT</h>
+	<p id="descr">A social cataloging website that allows you to freely search its database of books, annotations, and reviews.</p>
+
+<ul id="list">
+   <li class="list-item" id = "fiction" onclick="fetchData(this.id)"> 
+   	 <img class="icon" src="New Assets/Fiction.svg" alt="Fiction "> FICTION
+   	 <img class="arrow" src="New Assets/Next.svg" alt=" " align="right">
+   	</li>
+   <li class="list-item" id="drama" onclick="fetchData(this.id)"> 
+   	 <img class="icon" src="New Assets/Drama.svg" alt="Drama"> DRAMA
+   	 <img class="arrow" src="New Assets/Next.svg" alt="right-arrow " align="right">
+   	</li>
+   	   <li class="list-item" id="humor" onclick="fetchData(this.id)"> 
+   	 <img class="icon" src="New Assets/Humour.svg" alt="Humor"> HUMOR
+   	 <img class="arrow" src="New Assets/Next.svg" alt="right-arrow " align="right">
+   	</li>
+   	   <li class="list-item" id= "politics" onclick="fetchData(this.id)"> 
+   	 <img class="icon" src="New Assets/Politics.svg" alt="Politics"> POLITICS
+   	 <img class="arrow" src="New Assets/Next.svg" alt="right-arrow " align="right">
+   	</li>
+   	   <li class="list-item" id="Philosophy" onclick="fetchData(this.id)"> 
+   	 <img class="icon" src="New Assets/Philosophy.svg" alt="Philosphy"> PHILOSOPHY
+   	 <img class="arrow" src="New Assets/Next.svg" alt=" right-arrow" align="right">
+   	</li>
+   	   <li class="list-item" id= "history" onclick="fetchData(this.id)"> 
+   	 <img class="icon" src="New Assets/History.svg" alt=" history"> HISTORY
+   	 <img class="arrow" src="New Assets/Next.svg" alt="right-arrow " align="right">
+   	</li>
+   	   <li class="list-item" id= "Adventure" onclick="fetchData(this.id)"> 
+   	 <img class="icon" src="New Assets/Adventure.svg" alt="Adventure"> ADVENTURE
+   	 <img class="arrow" src="New Assets/Next.svg" alt="right-arrow " align="right">
+   	</li>
+	<p id="demo"></p>
+ <br>
+   <script src="fetch.js"></script>  
+ <br>
+</body>
+</html>

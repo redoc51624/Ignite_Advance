@@ -1,0 +1,13 @@
+.search-container {
+	width: 200px;
+}
+.book-container {
+	width: 420px;
+	margin-top: 20px;
+}
+
+.book-catalog {
+	width: 30%;
+	height: 170px;
+	background-color: grey;
+}
